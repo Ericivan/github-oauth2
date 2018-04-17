@@ -1,0 +1,10 @@
+{
+    "name": "administrator/github-oauth2",
+    "authors": [
+        {
+            "name": "ericivan",
+            "email": "ericivan047@gmail.com"
+        }
+    ],
+    "require": {}
+}
