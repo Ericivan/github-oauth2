@@ -1,5 +1,8 @@
 {
     "name": "ericivan/github-oauth2",
+	"license": "MIT",
+	"type":"library",
+	"version":"1.0.0"
     "authors": [
         {
             "name": "ericivan",
