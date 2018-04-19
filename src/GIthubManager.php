@@ -31,7 +31,7 @@ class GIthubManager extends Manager
     {
         $config = $this->app['config']['services.github'];
         $config['guzzle'] = [
-            'verify' => __DIR__ . './cacert.pem',
+            'verify' => __DIR__ . '/cacert.pem',
         ];
 
         return $this->buildProvider(GithubProvider::class,$config);
