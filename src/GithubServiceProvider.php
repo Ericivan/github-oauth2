@@ -16,6 +16,13 @@ class GithubServiceProvider extends ServiceProvider
 {
     protected $defer=true;
 
+    public function boot()
+    {
+        $this->publishes([
+            __DIR__ . '/config/github.php' => config_path('github.php')
+        ]);
+
+    }
 
     public function register()
     {
