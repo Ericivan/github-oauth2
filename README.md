@@ -1,5 +1,5 @@
 
-#基本配置
+# 基本配置
 
 >1. app.php 加入 \Github\GithubServiceProvider::class,
 
